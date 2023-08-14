@@ -129,7 +129,7 @@ We then apply the cross entropy loss by comparing with true pairs.
 
 #### Hyper parameters
 
-We trained ou model on a TPU v3-8. We train the model during 100k steps using a batch size of 1024 (128 per TPU core).
+We trained our model on a TPU v3-8. We train the model during 100k steps using a batch size of 1024 (128 per TPU core).
 We use a learning rate warm up of 500. The sequence length was limited to 128 tokens. We used the AdamW optimizer with
 a 2e-5 learning rate. The full training script is accessible in this current repository: `train_script.py`.
 
